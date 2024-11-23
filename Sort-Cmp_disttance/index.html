@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      Sort The Distance of 2 points on coordinate plane using comparator
+    </title>
+  </head>
+  <body>
+    <label for="horizontal">Horizontal:</label>
+    <input type="number" id="horizontal" />
+    <label for="vertical">Vertical:</label>
+
+    <input type="number" id="vertical" />
+    <button id="myButton" onclick="addElement()">Add new point</button>
+    <button id="sort" onclick="sortPoints()">After sort</button>
+    <button id="show" onclick="displayElement()">
+      The current point here:
+    </button>
+
+    <p id="countPoint"></p>
+
+    <div id="d1"></div>
+    <div id="myDiv"></div>
+
+    <div id="d2"></div>
+    <div id="sortPoints"></div>
+    <script src="./sortDistance.js"></script>
+  </body>
+</html>

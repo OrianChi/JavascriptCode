@@ -1,0 +1,35 @@
+.seating-chart {
+  display: grid;
+  grid-template-columns: repeat(3, 70px);
+  gap: 10px;
+  justify-content: center;
+}
+
+.seat {
+  width: 70px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  border: 1px solid #ccc;
+  cursor: pointer;
+}
+
+.booked {
+  background-color: red;
+  cursor: not-allowed;
+  color: white;
+}
+
+.available {
+  background-color: #7fff00;
+}
+
+.select-button {
+  width: 100%;
+  padding: 10px;
+  margin: 10px;
+  background-color: blue;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
