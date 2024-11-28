@@ -24,7 +24,8 @@
   background-color: #7fff00;
 }
 
-.select-button {
+/* id -> #name  , class : -> .name*/
+#randomSeat {
   width: 100%;
   padding: 10px;
   margin: 10px;
